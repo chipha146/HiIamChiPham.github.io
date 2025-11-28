@@ -2,20 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me | Chi Pham</title>
+    <title>About | Chi Pham</title>
 
     <style>
         body {
             margin: 0;
-            font-family: Arial, Helvetica, sans-serif;
+            padding: 0;
             background-color: #fafafa;
+            font-family: Arial, Helvetica, sans-serif;
             color: #333;
+
+            /* center whole content */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            height: 100vh;
+            text-align: center;
         }
 
-        header {
-            padding: 40px;
-            text-align: center;
+        /* ⭐ Move ONLY the title up slightly */
+        h1 {
+            margin-bottom: 10px;
+            font-size: 32px;
+            margin-top: -20px; /* Move About Me up */
+        }
+
+        nav {
+            margin-top: 10px;
         }
 
         nav a {
@@ -23,33 +38,21 @@
             text-decoration: none;
             color: #444;
             font-weight: bold;
+            font-size: 18px;
         }
 
-        .container {
-            max-width: 900px;
-            margin: 0 auto 40px auto;
-            padding: 0 20px 20px 20px;
+        .content-box {
+            max-width: 700px;
+            margin-top: 30px;
             line-height: 1.7;
-            text-align: center;
-        }
-
-        h2 {
-            margin-top: 20px;
-            text-transform: uppercase;
-            font-size: 22px;
-            letter-spacing: 1px;
-        }
-
-        ul {
-            margin-top: 10px;
-            line-height: 1.7;
-            list-style: none;
-            padding: 0;
+            font-size: 18px;
         }
 
         footer {
+            position: fixed;
+            bottom: 20px;
+            width: 100%;
             text-align: center;
-            padding: 30px;
             color: #777;
             font-size: 14px;
         }
@@ -58,41 +61,36 @@
 
 <body>
 
-    <header>
-        <h1>About Me</h1>
+    <div>
+        <h1>About Me</h1> <!-- moved up only this -->
+
         <nav>
             <a href="index.html">Home</a>
             <a href="contact.html">Contact</a>
             <a href="RESUME (1).pdf" target="_blank">Resume</a>
         </nav>
-    </header>
 
-    <div class="container">
-        <h2>Who I Am</h2>
+        <div class="content-box">
+            <p>
+                I am a Business Economics undergraduate student at York University,
+                interested in how markets, incentives, and human behavior shape decision-making.
+            </p>
 
-        <p>
-            I am a Business Economics undergraduate student at York University,
-            interested in how markets, incentives, and human behavior shape
-            decision-making.
-        </p>
+            <p>
+                I’ve gained strong experience working in fast-paced environments, which
+                has taught me teamwork, communication, and staying calm under pressure.
+            </p>
 
-        <p>
-            I also work in fast-paced hospitality environments, which has taught me
-            how to multitask, communicate clearly, and stay calm under pressure.
-        </p>
+            <p>
+                I’m curious, hardworking, and always looking to learn more.
+            </p>
 
-        <p>
-            I am curious, hardworking, and always looking for ways to grow.
-        </p>
-
-        <h2>My Passion Areas</h2>
-        <ul>
-            <li>Customer behavior and decision-making</li>
-            <li>Data analysis and business trends</li>
-            <li>Improving customer experience</li>
-            <li>Teamwork in fast-paced environments</li>
-            <li>Personal growth and learning new skills</li>
-        </ul>
+            <h2 style="margin-top: 25px;">My Passion Areas</h2>
+            <p>
+                Customer behavior • Data trends • Business operations • Teamwork •  
+                Personal growth • Communication • Problem-solving • Adaptability
+            </p>
+        </div>
     </div>
 
     <footer>

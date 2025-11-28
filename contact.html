@@ -2,20 +2,36 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact | Chi Pham</title>
 
     <style>
         body {
             margin: 0;
+            padding: 0;
+            background-color: #fafafa;
             font-family: Arial, Helvetica, sans-serif;
-            background-color: #fafafa; /* matching background */
             color: #333;
+
+            /* center content */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            height: 100vh;
             text-align: center;
         }
 
-        header {
-            padding: 40px;
+        /* Title */
+        h1 {
+            margin-bottom: 10px;
+            font-size: 32px;
+            margin-top: -20px; /* same lift as About Me title */
+        }
+
+        /* Navigation */
+        nav {
+            margin-top: 10px;
         }
 
         nav a {
@@ -23,26 +39,22 @@
             text-decoration: none;
             color: #444;
             font-weight: bold;
+            font-size: 18px;
         }
 
-        .container {
-            max-width: 900px;
-            margin: 40px auto;
-            padding: 20px;
-        }
-
-        /* removed white box background */
-        .info-text {
-            display: inline-block;
+        /* Contact info */
+        .contact-box {
+            margin-top: 30px;
             font-size: 20px;
-            margin-top: 20px;
             line-height: 1.8;
         }
 
+        /* Footer */
         footer {
+            position: fixed;
+            bottom: 20px;
+            width: 100%;
             text-align: center;
-            padding: 30px;
-            margin-top: 40px;
             color: #777;
             font-size: 14px;
         }
@@ -51,17 +63,16 @@
 
 <body>
 
-    <header>
+    <div>
         <h1>Contact</h1>
+
         <nav>
             <a href="index.html">Home</a>
             <a href="about.html">About</a>
             <a href="RESUME (1).pdf" target="_blank">Resume</a>
         </nav>
-    </header>
 
-    <div class="container">
-        <div class="info-text">
+        <div class="contact-box">
             <p><strong>Email:</strong> <a href="mailto:jenypham146@gmail.com">jenypham146@gmail.com</a></p>
             <p><strong>Phone:</strong> +1 437-676-6788</p>
         </div>
