@@ -9,14 +9,13 @@
         body {
             margin: 0;
             font-family: Arial, Helvetica, sans-serif;
-            background-color: #fafafa;
+            background-color: #fafafa; /* matching background */
             color: #333;
             text-align: center;
         }
 
         header {
             padding: 40px;
-            text-align: center;
         }
 
         nav a {
@@ -32,13 +31,12 @@
             padding: 20px;
         }
 
-        .email-box {
-            padding: 20px;
-            background: #ffffff;
-            border-radius: 10px;
+        /* removed white box background */
+        .info-text {
             display: inline-block;
-            font-size: 18px;
+            font-size: 20px;
             margin-top: 20px;
+            line-height: 1.8;
         }
 
         footer {
@@ -63,9 +61,9 @@
     </header>
 
     <div class="container">
-        <div class="email-box">
-            <p>Email: <a href="mailto:jenypham146@gmail.com">jenypham146@gmail.com</a></p>
-            <p>Phone: +1 437-676-6788</p>
+        <div class="info-text">
+            <p><strong>Email:</strong> <a href="mailto:jenypham146@gmail.com">jenypham146@gmail.com</a></p>
+            <p><strong>Phone:</strong> +1 437-676-6788</p>
         </div>
     </div>
 

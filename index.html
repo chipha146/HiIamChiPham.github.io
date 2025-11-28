@@ -16,15 +16,12 @@
             position: relative;
         }
 
-        .welcome-text {
-            margin-top: 54px;
-            font-size: 26px;
-            font-weight: bold;
-            color: #222;
-        }
-
-        header {
-            margin-top: 120px;
+        /* -------- Center block (Name + Subtitle + Nav) -------- */
+        .center-block {
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
         }
 
         h1 {
@@ -35,33 +32,44 @@
         .subtitle {
             margin-top: 0;
             color: #555;
-        }
-
-        nav {
-            margin-top: 25px;
+            margin-bottom: 25px;
         }
 
         nav a {
-            margin: 0 25px;
+            margin: 0 20px;
             text-decoration: none;
             color: #444;
             font-weight: bold;
             font-size: 18px;
         }
 
+        /* -------- Welcome text (1 inch above the footer) -------- */
+        .welcome-text {
+            position: fixed;
+            bottom: 96px;  /* 1 inch above footer */
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 26px;
+            font-weight: bold;
+            color: #222;
+        }
+
+        /* -------- Footer (Trademark) -------- */
         footer {
-            margin-top: 80px;
-            padding: 20px;
+            position: fixed;
+            bottom: 20px;
+            width: 100%;
+            text-align: center;
             font-size: 14px;
             color: #777;
         }
     </style>
 </head>
+
 <body>
 
-    <header>
-        <p class="welcome-text">Welcome, and thank you for visiting my site.</p>
-
+    <!-- CENTERED CONTENT -->
+    <div class="center-block">
         <h1>Chi Pham</h1>
         <p class="subtitle">Business Economics Undergraduate | York University</p>
 
@@ -70,8 +78,12 @@
             <a href="contact.html">Contact</a>
             <a href="RESUME (1).pdf" target="_blank">Resume</a>
         </nav>
-    </header>
+    </div>
 
+    <!-- WELCOME MESSAGE (fixed 1 inch above footer) -->
+    <p class="welcome-text">Welcome, and thank you for visiting my site.</p>
+
+    <!-- FOOTER -->
     <footer>
         © 2025 Chi Pham — All Rights Reserved
     </footer>
