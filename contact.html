@@ -2,50 +2,71 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact | Chi Pham</title>
 
     <style>
         body {
             margin: 0;
-            background-color: #fafafa;
             font-family: Arial, Helvetica, sans-serif;
+            background-color: #fafafa;
+            color: #333;
             text-align: center;
-            padding-top: 80px;
+        }
+
+        header {
+            padding: 40px;
+            text-align: center;
         }
 
         nav a {
-            margin: 0 20px;
+            margin: 0 15px;
             text-decoration: none;
             color: #444;
             font-weight: bold;
         }
 
-        .info-box {
-            margin-top: 40px;
-            font-size: 20px;
-            line-height: 1.8;
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .email-box {
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 10px;
+            display: inline-block;
+            font-size: 18px;
+            margin-top: 20px;
         }
 
         footer {
-            margin-top: 60px;
+            text-align: center;
+            padding: 30px;
+            margin-top: 40px;
             color: #777;
+            font-size: 14px;
         }
     </style>
 </head>
 
 <body>
 
-    <h1>Contact</h1>
+    <header>
+        <h1>Contact</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="RESUME (1).pdf" target="_blank">Resume</a>
+        </nav>
+    </header>
 
-    <nav>
-        <a href="../">Home</a>
-        <a href="../about/">About</a>
-        <a href="../resume/">Resume</a>
-    </nav>
-
-    <div class="info-box">
-        <p><strong>Email:</strong> jenypham146@gmail.com</p>
-        <p><strong>Phone:</strong> 437-676-6788</p>
+    <div class="container">
+        <div class="email-box">
+            <p>Email: <a href="mailto:jenypham146@gmail.com">jenypham146@gmail.com</a></p>
+            <p>Phone: +1 437-676-6788</p>
+        </div>
     </div>
 
     <footer>
