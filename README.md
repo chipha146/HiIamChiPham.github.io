@@ -1,57 +1,43 @@
-# HiIamChiPham.github.io
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chi Pham | Portfolio</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: #fafafa;
-            color: #333;
-        }
+# Chi Pham – Portfolio Website
 
-        header {
-            padding: 40px;
-            text-align: center;
-        }
+Welcome to my personal portfolio website. This site serves as a simple and clean introduction to who I am, what I study, and how to contact me.
 
-        nav {
-            text-align: center;
-            margin-top: 10px;
-        }
+## About the Website
+🌟 This portfolio includes:
+- A centered homepage with an introduction and navigation links  
+- An **About** page describing my background  
+- A **Contact** page with my email and phone  
+- A downloadable **Resume** in PDF format  
 
-        nav a {
-            margin: 0 15px;
-            text-decoration: none;
-            color: #555;
-            font-weight: bold;
-        }
+Everything is designed to be minimal, readable, and easy to access.
 
-        .container {
-            max-width: 900px;
-            margin: 40px auto;
-            padding: 20px;
-            line-height: 1.7;
-        }
+## About Me
+I am a Business Economics undergraduate student at York University 👩‍🎓 .  
+My interests include understanding how people make decisions, how markets operate, and how businesses respond to change.
 
-        .section-title {
-            font-size: 24px;
-            font-weight: bold;
-            margin-top: 40px;
-            text-transform: uppercase;
-        }
+## Pages Included
+- **index.html** — Homepage  
+- **about.html** — About Me section  
+- **contact.html** — Contact details  
+- **RESUME.pdf** — My resume (PDF)
 
-        footer {
-            text-align: center;
-            padding: 20px;
-            margin-top: 40px;
-            font-size: 14px;
-            color: #777;
-        }
-    </style>
-</head>
+## How to View the Website
+If this project is uploaded to GitHub Pages:
+1. Go to **Settings**
+2. Scroll to **Pages**
+3. Select `main` branch → `/root`
+4. Save  
+Your live website link will appear at the top.
 
-<body>
+To view locally:
+- Open `index.html` in any web browser (Chrome, Edge, Safari, etc.)
+
+## Contact
+If you would like to reach me:
+📬
+**Email:** jenypham146@gmail.com  
+**Phone:** 437-676-6788  
+
+---
+
+Thank you for visiting my portfolio!
